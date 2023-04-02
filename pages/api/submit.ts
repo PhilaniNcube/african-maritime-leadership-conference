@@ -64,6 +64,8 @@ export default async function handler(
       }}
       )
 
+      res.status(200).send({message: 'Contact added to the list'})
+
       } catch (err) {
             console.log(err)
             res.status(400).send({ err })
