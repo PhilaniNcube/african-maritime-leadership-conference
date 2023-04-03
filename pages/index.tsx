@@ -122,7 +122,7 @@ export default function Home() {
           >
             <div className="col-span-1 md:col-span-2 ">
               <h2 className="text-lg md:text-xl lg:text-2xl font-bold">
-                Comapny Details
+                Company Details
               </h2>
               <hr className="text-zinc-700 mt-3" />
             </div>
