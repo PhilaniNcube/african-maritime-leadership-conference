@@ -113,7 +113,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="mb-10">
+      <main className="mb-10 relative">
+        <div className="absolute bg-slate-600/40 inset-0 flex items-center justify-center">
+          <h1 className="font-bold text-red-600 text-3xl">Closed</h1>
+        </div>
         <div className="max-w-5xl mx-auto pt-10 px-8">
           <Image src="/banner.jpg" alt="Banner" width={3780} height={1181} />
           <form
